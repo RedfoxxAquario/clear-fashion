@@ -61,17 +61,23 @@ module.exports.insert = async products => {
  * @param  {Array}  sort
  * @return {Array}
  */
-module.exports.find = async (query,sort=0) => {
+module.exports.find = async (query,sort=0,limit=0) => {
   try {
     const db = await getDB();
     const collection = db.collection(MONGODB_COLLECTION);
     //console.log('query:',query);
-    if(sort==0){
+    if(sort==0 && limit==0){
       const result = await collection.find(query).toArray();
-      console.log('result:',result);
+      //console.log('result:',result);
+      return result;
+    }else if(limit==0){
+      const result = await collection.find(query).sort(sort).toArray();
+      return result;
+    }else if(sort==0){
+      const result = await collection.find(query).limit(limit).toArray();
       return result;
     }else{
-      const result = await collection.find(query).sort(sort).toArray();
+      const result = await collection.find(query).sort(sort).limit(limit).toArray();
       return result;
     }
   } catch (error) {
