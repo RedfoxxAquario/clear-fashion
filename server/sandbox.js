@@ -38,7 +38,7 @@ async function sandbox (eshop,web) {
     }
     fs.writeFileSync('./sources/test.json', JSON.stringify(products,null,'\t'),'utf8',0o666,'as');
     const result = await db.insert(products);
-    const brand='montlimart';
+    const brand ='montlimart';
     console.log('done');
     process.exit(0);
   } catch (e) {
