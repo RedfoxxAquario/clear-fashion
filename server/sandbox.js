@@ -38,7 +38,7 @@ async function sandbox (eshop,web) {
     }
     fs.writeFileSync('./sources/test.json', JSON.stringify(products,null,'\t'),'utf8',0o666,'as');
     const result = await db.insert(products);
-    const brand='montlimart';
+    const brand ='montlimart';
     console.log('done');
     process.exit(0);
   } catch (e) {
@@ -49,7 +49,7 @@ async function sandbox (eshop,web) {
 
 const [,,eshop] = process.argv;
 
-sandbox(shop1,dedicatedbrand);
+sandbox(shop2,montlimart);
 
 async function findBrand(text){
   const query={brand:text};
@@ -73,4 +73,4 @@ async function filterPrice(){
   const product3=await db.find(query,sort);
   console.log(product3);
 }
-//filterPrice();
+filterPrice();

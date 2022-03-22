@@ -39,17 +39,24 @@ const setCurrentProducts = ({result, meta}) => {
 const fetchProducts = async (page = 1, size = 12) => {
   try {
     const response = await fetch(
-      `https://clear-fashion-api.vercel.app?page=${page}&size=${size}`
+      `https://clear-fashion-coral.vercel.app/products/search`
     );
-    const body = await response.json();
 
-    if (body.success !== true) {
-      console.error(body);
-      return {currentProducts, currentPagination};
+    const result = await response.json();
+    console.log("result :");
+    console.log(result); 
+
+    if(result.length==0){
+      console.error(result);
+      return{currentProducts,currentPagination};
     }
-
-    return body.data;
+    let meta = {"currentPage":page,"count":result.length,"pageCount":1,"pageSize":result.length}
+    let res = {result,meta}
+    //console.log(res);
+    return res;
+  
   } catch (error) {
+    console.log("in catch :");
     console.error(error);
     return {currentProducts, currentPagination};
   }
@@ -62,6 +69,7 @@ const fetchProducts = async (page = 1, size = 12) => {
 const renderProducts = products => {
   const fragment = document.createDocumentFragment();
   const div = document.createElement('div');
+  console.log('products :',products);
   const template = products
     .map(product => {
       return `
