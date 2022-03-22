@@ -49,7 +49,7 @@ async function sandbox (eshop,web) {
 
 const [,,eshop] = process.argv;
 
-sandbox(shop2,montlimart);
+sandbox(shop1,dedicatedbrand);
 
 async function findBrand(text){
   const query={brand:text};
@@ -73,4 +73,4 @@ async function filterPrice(){
   const product3=await db.find(query,sort);
   console.log(product3);
 }
-filterPrice();
+//filterPrice();

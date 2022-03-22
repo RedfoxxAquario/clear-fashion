@@ -1,62 +1,202 @@
 [
 	{
-		"name": "PULL SINCERE",
-		"price": 135,
-		"brand": "montlimart"
+		"name": "Sweater Mora Waves Off-White",
+		"price": 99,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "T-SHIRT AGRUME",
-		"price": 50,
-		"brand": "montlimart"
+		"name": "T-shirt Stockholm Local Planet Dusty Purple",
+		"price": 34,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "PULL DAMIER",
-		"price": 135,
-		"brand": "montlimart"
+		"name": "Chino Pants Sundsvall Wood Brown",
+		"price": 89,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "PULL CONVICTION",
-		"price": 125,
-		"brand": "montlimart"
+		"name": "Pants Sollentuna Wood Brown",
+		"price": 99,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "T-SHIRT ESSAIM",
-		"price": 45,
-		"brand": "montlimart"
+		"name": "Pants Sollentuna Navy",
+		"price": 99,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "T-SHIRT ICONE",
-		"price": 45,
-		"brand": "montlimart"
+		"name": "Pants Sollentuna Black",
+		"price": 99,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "ESPADRILLES ESPAGREEN",
-		"price": 65,
-		"brand": "montlimart"
+		"name": "T-shirt Stockholm Stripes Yellow/Off-White",
+		"price": 39,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "SWEAT ZESTE",
-		"price": 95,
-		"brand": "montlimart"
+		"name": "T-shirt Stockholm Stripes Blue/Pink",
+		"price": 39,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "BASKETS IMPACT",
-		"price": 149,
-		"brand": "montlimart"
+		"name": "T-shirt Stockholm Stripes Black/Off-White",
+		"price": 39,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "PULL VERITABLE",
-		"price": 130,
-		"brand": "montlimart"
+		"name": "T-shirt Hasle Stripes Yellow/Off-White",
+		"price": 49,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "POLO AMICAL",
-		"price": 75,
-		"brand": "montlimart"
+		"name": "T-shirt Hasle Stripes Blue/Pink",
+		"price": 49,
+		"brand": "dedicatedbrand"
 	},
 	{
-		"name": "CHEMISE CENTRE BOURG",
-		"price": 105,
-		"brand": "montlimart"
+		"name": "T-shirt Hasle Stripes Black/Off-White",
+		"price": 49,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Hoodie Falun Palm Leaves Beige",
+		"price": 89,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Rubber Soul Grey Melange",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Revolver White",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Palm Leaves Beige",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Beatles Off-White",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Beatles Logo Black",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Abbey Road White",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Abbey Road Embroidery Grey Melange",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Abbey Road Black",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Sweatshirt Malmoe Beatles Logo Black",
+		"price": 79,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Sweatshirt Malmoe Abbey Road Embroidery Grey Melange",
+		"price": 79,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Sweater Karlskrona Transfer Knit Honey Yellow",
+		"price": 99,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Sgt Pepper's White",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "T-shirt Stockholm Sgt Pepper's Black",
+		"price": 39,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Pants Klitmoeller Work Stripe Blue",
+		"price": 79,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Pants Klitmoeller Blue",
+		"price": 79,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Jacket Leksand Beige",
+		"price": 129,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Jacket Kumla Wood Brown",
+		"price": 129,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Jacket Kumla Leaf Green",
+		"price": 129,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Jacket Kumla Black",
+		"price": 129,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Pants Klitmoeller Black",
+		"price": 79,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Pants Sollentuna Beige",
+		"price": 99,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Pants Lerum Beige",
+		"price": 99,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Chino Shorts Nacka Wood Brown",
+		"price": 69,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Chino Shorts Nacka Beige",
+		"price": 69,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Chino Pants Sundsvall Beige",
+		"price": 89,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Chino Shorts Nacka Black",
+		"price": 69,
+		"brand": "dedicatedbrand"
+	},
+	{
+		"name": "Shorts Vejle Work Stripe Blue",
+		"price": 69,
+		"brand": "dedicatedbrand"
 	}
 ]

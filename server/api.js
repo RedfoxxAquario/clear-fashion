@@ -1,6 +1,7 @@
 const cors = require('cors');
 const express = require('express');
 const helmet = require('helmet');
+const { ObjectId } = require('mongodb');
 const db =require('./db')
 const PORT = 8092;
 
@@ -17,6 +18,7 @@ app.options('*', cors());
 app.get('/', (request, response) => {
   response.send({'ack': true});
 });
+
 app.get('/products/search/', async (request, response) => {
   var url=new URL('http://localhost:8092'+request.originalUrl);
   console.log('search params:',url.searchParams)
@@ -34,18 +36,16 @@ app.get('/products/search/', async (request, response) => {
     var wanted_limit=parseInt(url.searchParams.get('limit'));  }
   console.log("query:",query);
   result=await db.find(query,0,limit=wanted_limit);
-  //result=String(result);
-  //console.log(result);
   response.send(result);
 });
 
 app.get('/products/:id', async (request, response) => {
   wanted_id=request.params.id;
-  result=await db.find({_id:wanted_id});
+  let variable=ObjectId(wanted_id);
+  result=await db.find({_id:variable});
   console.log(result);
   response.send(result);
 });
-
 
 app.listen(PORT);
 
